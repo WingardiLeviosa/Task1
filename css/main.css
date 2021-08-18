@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    width: 100%;
+    height: 2400px;
+    background-color: #0b0c2a;
+}
+
+.home .layOut {
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+
+.home .nav {
+    background-color: #070720;
+    overflow: auto;
+}
+
+.home .nav ul {
+    list-style-type: none;
+}
+
+.home .nav ul li {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+.home .nav .navhome {
+    color: white;
+}
+
+.home .nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #e53637;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.home .nav ul li a:hover {
+    color: white;
+}
+
+.home .nav .logo {
+    margin: 15px;
+    padding: 2px;
+    padding-left: 10px;
+    float: left;
+    color: white;
+}
+
+.home .nav .logo span {
+    color: #e53637;
+}
+
+/*----------------------navebar end------------------*/
+
+.home .caption {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.home .caption img {
+    width: 100%;
+    height: 450px;
+}
+
+/*--------------------- img end------------------*/
+
+.home .second {
+    margin-top: 30px;
+}
+
+.home .second .container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.home .second-item {
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+.home .second-item img {
+    width: 45%;
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.home .second-item h1 {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.home .second-item p {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+
+.home .second-item button {
+    padding: 10px 20px;
+    background: #e53637;
+    color: white;
+    font-weight: 900;
+    border-color: #070720;
+}
+
+.home .second-item button:hover {
+    padding: 10px 20px;
+    background: white;
+    color: #e53637;
+    font-weight: 900;
+    border-color: #070720;
+}
+
+p {
+    font-size: 20px;
+}
+
+/*---------------------latest episodes end------------------*/
+
+.rwhead {
+    float: left;
+    padding-bottom: 20px;
+}
+
+.rwhr {
+    width: 85%;
+    float: right;
+    height: 20px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.home .recent-works {
+    margin-top: 50px;
+}
+
+.home .recent-works h1 {
+    display: flex;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.home .recent-content {
+    padding-top: 50px;
+    width: 100%;
+}
+
+.home .recent-content .third-container {
+    width: 100%;
+    margin: auto;
+    background-color: #070720;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    display: flex;
+
+}
+
+.home .recent-content .third-container .third-item {
+    width: 24%;
+    height: auto;
+    color: white;
+}
+
+.home .recent-content .third-container .third-item img {
+    padding: 20px 0px 20px 0px;
+}
+
+.home .recent-content .third-container .third-item h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.home .recent-content .third-container .third-item p {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+/*---------------------recent end------------------*/
+
+.home .footer {
+    margin-top: 50px;
+}
+
+.home .footer .footer-container {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    background-color: #070720;
+    display: flex;
+    padding-top: 40px;
+}
+
+.home .footer .footer-container .footer-item {
+    width: 30%;
+    color: white;
+    text-align: left;
+    padding-top: 30px;
+    margin-left: 35px;
+}
+
+.home .footer .footer-container .footer-item p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+.home .footer .footer-container .footer-item .footer-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.home .footer .footer-container .footer-item ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.home .footer .footer-container .footer-item ul li img {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+/*---------------------footer end------------------*/
+
+.footer .footer-right {
+    float: left;
+    height: 450px;
+    background-color: #e5363633;
+    width: 4%;
+    margin-left: -81px;
+}
+
+.footer .footer-left {
+    float: right;
+    height: 450px;
+    background-color: #e5363633;
+    width: 4%;
+    margin-right: -81px;
+}
+
+/*--------------------- transperant footer ------------------*/
