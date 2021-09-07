@@ -3,262 +3,332 @@
     padding: 0;
 }
 
-.home {
-    width: 100%;
-    height: 2400px;
-    background-color: #0b0c2a;
+.none {
+    display: none;
 }
 
-.home .layOut {
-    margin: auto;
-    width: 90%;
-    height: 100%;
-}
-
-.home .nav {
-    background-color: #070720;
-    overflow: auto;
-}
-
-.home .nav ul {
-    list-style-type: none;
-}
-
-.home .nav ul li {
-    float: right;
-    margin: 10px;
-    padding: 10px;
-}
-
-.home .nav .navhome {
-    color: white;
-}
-
-.home .nav ul li a {
-    font-size: 16px;
-    text-decoration: none;
-    color: #e53637;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-}
-
-.home .nav ul li a:hover {
-    color: white;
-}
-
-.home .nav .logo {
-    margin: 15px;
-    padding: 2px;
-    padding-left: 10px;
+#checkMe {
+    margin-top: 10px;
     float: left;
+}
+
+
+.btn-black,
+#darkMode2 {
+    padding: 5px;
+    background-color: black;
     color: white;
 }
 
-.home .nav .logo span {
-    color: #e53637;
-}
-
-/*----------------------navebar end------------------*/
-
-.home .caption {
-    text-align: center;
-    padding-top: 10px;
-}
-
-.home .caption img {
-    width: 100%;
-    height: 450px;
-}
-
-/*--------------------- img end------------------*/
-
-.home .second {
-    margin-top: 30px;
-}
-
-.home .second .container {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
-
-.home .second-item {
-    height: auto;
-    text-align: center;
-    color: white;
-}
-
-.home .second-item img {
-    width: 45%;
-    float: right;
-    margin-right: 15px;
-    margin-bottom: 20px;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-}
-
-.home .second-item h1 {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.home .second-item p {
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 15px;
-    padding: 30px;
-}
-
-.home .second-item button {
-    padding: 10px 20px;
-    background: #e53637;
-    color: white;
-    font-weight: 900;
-    border-color: #070720;
-}
-
-.home .second-item button:hover {
-    padding: 10px 20px;
-    background: white;
-    color: #e53637;
-    font-weight: 900;
-    border-color: #070720;
-}
-
-p {
-    font-size: 20px;
-}
-
-/*---------------------latest episodes end------------------*/
-
-.rwhead {
-    float: left;
-    padding-bottom: 20px;
-}
-
-.rwhr {
-    width: 85%;
-    float: right;
-    height: 20px;
+#lightMode2 {
+    padding: 5px;
     background-color: white;
-    padding-top: 10px;
+    color: black;
 }
 
-.home .recent-works {
-    margin-top: 50px;
+.selected {
+    background-color: gray !important;
+    text-decoration: line-through;
 }
 
-.home .recent-works h1 {
-    display: flex;
+#drkMode {
+    background-image: linear-gradient(110deg, rgb(19, 18, 18) 70%, #485461 100%);
+    font-family: 'Poppins', sans-serif;
     color: white;
-    margin-bottom: 5px;
-}
-
-.home .recent-content {
-    padding-top: 50px;
-    width: 100%;
-}
-
-.home .recent-content .third-container {
-    width: 100%;
-    margin: auto;
-    background-color: #070720;
-    padding: 20px 0px 20px 0px;
+    height: 1500px;
     text-align: center;
-    display: flex;
-
 }
 
-.home .recent-content .third-container .third-item {
-    width: 24%;
-    height: auto;
+#lgtMode {
+    background-image: linear-gradient(110deg, rgb(83, 49, 236), #6610f2);
+    font-family: 'Poppins', sans-serif;
     color: white;
-}
-
-.home .recent-content .third-container .third-item img {
-    padding: 20px 0px 20px 0px;
-}
-
-.home .recent-content .third-container .third-item h2 {
+    height: 1500px;
     text-align: center;
-    font-size: 32px;
-    font-weight: 700;
-    margin-bottom: 15px;
 }
 
-.home .recent-content .third-container .third-item p {
-    display: inline-block;
-    margin-bottom: 15px;
-}
-
-/*---------------------recent end------------------*/
-
-.home .footer {
-    margin-top: 50px;
-}
-
-.home .footer .footer-container {
-    width: 100%;
-    height: 400px;
-    margin: auto;
-    background-color: #070720;
-    display: flex;
-    padding-top: 40px;
-}
-
-.home .footer .footer-container .footer-item {
-    width: 30%;
-    color: white;
-    text-align: left;
-    padding-top: 30px;
-    margin-left: 35px;
-}
-
-.home .footer .footer-container .footer-item p {
+.h1-heading {
     margin-top: 20px;
-    text-align: left;
-    font-size: 20px;
-    overflow: hidden;
-}
-
-.home .footer .footer-container .footer-item .footer-heading {
-    font-size: 32px;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 
-.home .footer .footer-container .footer-item ul {
-    display: flex;
-    list-style-type: none;
+.h3-secondary {
+    color: white;
+}
+
+.user-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#close-btn {
+    width: 100px;
+    padding: 5px;
+}
+
+#addBtn {
+    padding: 10px;
 }
 
 
-.home .footer .footer-container .footer-item ul li img {
-    padding-top: 30px;
-    padding-left: 20px;
+.ddBtn {
+    padding: 15px;
+    width: 100%;
 }
 
-
-/*---------------------footer end------------------*/
-
-.footer .footer-right {
-    float: left;
-    height: 450px;
-    background-color: #e5363633;
-    width: 4%;
-    margin-left: -81px;
+#opnBtn {
+    padding: 15px;
+    width: 50%;
+    border: white solid 1px;
 }
 
-.footer .footer-left {
+#lrgBtn {
+    padding: 15px;
+    width: 25%;
+    border: white solid 1px;
+}
+
+#lightMode {
+    padding: 15px;
+    width: 20%;
+    background-color: white;
+    color: black;
+    border: white solid 1px;
+
+}
+
+#ulMode {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+#ulMode:hover {
+    color: black;
+}
+
+.btn-dark,
+#darkMode {
+    padding: 15px;
+    width: 20%;
+    background-color: black;
+    color: white;
+    border: grey solid 1px;
+}
+
+ul {
+    list-style: none;
+}
+
+#listss {
+    display: none;
+    list-style: none;
+    width: 25%;
     float: right;
-    height: 450px;
-    background-color: #e5363633;
-    width: 4%;
-    margin-right: -81px;
+    margin-right: 165px;
+    margin-top: -23px;
 }
 
-/*--------------------- transperant footer ------------------*/
+
+.btn {
+    font-weight: bold;
+}
+
+
+
+.task-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.noTaskss {
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#modalLayout {
+    top: 20%;
+    left: 0;
+}
+
+.card {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.alert-light {
+    background-color: white;
+    color: #3210f2;
+    border: #6610f2 3px dotted;
+}
+
+#plcHld {
+    height: 38px;
+    width: 180px;
+}
+
+#playDiv {
+    margin: auto;
+}
+
+.btnplay,
+.btnclear {
+    color: white;
+    border: white solid 1px;
+
+}
+
+.checkme {
+    margin-top: 10px;
+    display: inline;
+    float: left;
+
+}
+
+@media (max-width:900px) {
+    #lrgBtn {
+        padding: 5px;
+        width: 30%;
+    }
+
+    #opnBtn {
+        padding: 5px;
+        width: 30%;
+    }
+
+    #darkMode {
+        padding: 5px;
+        width: 25%;
+    }
+
+    #listss {
+        width: 30%;
+        margin-right: 137px;
+    }
+
+    #lightMode {
+        padding: 5px;
+        width: 20%;
+    }
+
+    #plcHld {
+        width: 120px;
+    }
+}
+
+@media (max-width:768px) {
+    #plcHld {
+        width: 80px;
+    }
+
+    #listss {
+        margin-right: 157px;
+    }
+}
+
+@media (max-width:600px) {
+    #listss {
+        margin-right: 187px;
+    }
+
+    .btn-black2 {
+        background-color: black;
+        color: white;
+        margin-left: 16px;
+    }
+}
+
+@media (max-width:480px) {
+    .h1-heading {
+        font-size: 80px;
+    }
+
+    #plcHld {
+        width: 70px;
+    }
+
+    #lrgBtn {
+        width: 26%;
+    }
+
+    #opnBtn {
+        width: 30%;
+    }
+
+    #darkMode {
+        width: 24%;
+    }
+
+    #listss {
+        margin-right: 152px;
+        width: 26%;
+    }
+
+    .btn-black2 {
+        margin-top: 2px;
+        margin-left: 6px;
+    }
+
+    #lightMode {
+        padding: 2px;
+        width: 21%;
+    }
+}
+
+@media (max-width:320px) {
+    .h1-heading {
+        font-size: 60px;
+    }
+
+    .h3-secondary {
+        font-size: 20px;
+    }
+
+    #darkMode {
+        width: 30%;
+        padding: 6px;
+    }
+
+    #lrgBtn {
+        width: 30%;
+    }
+
+    #opnBtn {
+        width: 35%;
+    }
+
+    #listss {
+        margin-right: 99px;
+    }
+
+    #plcHld {
+        width: 50px;
+    }
+
+    .btn-black2 {
+        margin-left: 6px;
+    }
+
+    #lightMode {
+        padding: 5px;
+        width: 25%;
+    }
+
+    #h5heading {
+        padding-left: 40px;
+    }
+
+    #darkMode2 {
+        width: 40%;
+    }
+    #close-btn {
+        padding: 17px;
+    }
+    #lightMode2 {
+        width: 40%;
+    }
+}
